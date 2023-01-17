@@ -1,0 +1,7 @@
+Started by user [8mha:////4HtCcOMsgJOVdCHNUF4Kqve308JZsJfPBDSLWo+xC0hoAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4EhtsjkrxksBL+AGRMUhdBMUqJcbrpVJ1AWQxAQlxcDPAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgY+/eT83ILSktQi/TygOwHwYj8LwwAAAA==[0mnode (slave) in workspace /var/lib/jenkins/workspace/seed
+Processing provided DSL script
+Added items:
+    GeneratedJob{name='demo_2'}
+Finished: SUCCESS

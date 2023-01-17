@@ -1,0 +1,9 @@
+Started by user [8mha:////4HtCcOMsgJOVdCHNUF4Kqve308JZsJfPBDSLWo+xC0hoAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/20.Schedule.task
+[20.Schedule.task] $ /bin/bash /tmp/jenkins9167159885314949352.sh
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+[][Slack Notifications] will send OnSuccessNotification because build matches and user preferences allow it
+Finished: SUCCESS
