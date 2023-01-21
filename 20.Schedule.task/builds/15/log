@@ -1,0 +1,13 @@
+Started by user [8mha:////4HtCcOMsgJOVdCHNUF4Kqve308JZsJfPBDSLWo+xC0hoAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/20.Schedule.task
+[20.Schedule.task] $ /bin/bash /tmp/jenkins14548018539491035263.sh
+Today is Sun 15 Jan 2023 04:23:11 PM UTC and following holidays in BY
+
+Today are the following exchange rates in BY
+[Slack Notifications] found #14 as previous completed, non-aborted build
+[Slack Notifications] will send OnSuccessNotification because build matches and user preferences allow it
+Using dirname=/var/lib/jenkins/workspace/20.Schedule.task and includeMask=
+Adding file /var/lib/jenkins/workspace/20.Schedule.task/jenkins.txt
+Exception uploading files '/var/lib/jenkins/workspace/20.Schedule.task/jenkins.txt' to Slack slack.com: Temporary failure in name resolution
+Finished: SUCCESS

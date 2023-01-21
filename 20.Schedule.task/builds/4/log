@@ -1,0 +1,265 @@
+Started by user [8mha:////4HtCcOMsgJOVdCHNUF4Kqve308JZsJfPBDSLWo+xC0hoAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/20.Schedule.task
+[20.Schedule.task] $ /bin/bash /tmp/jenkins12184451155486310430.sh
+Today is Sun 15 Jan 2023 11:03:17 AM UTC and following holidays in BY
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      3      0 --:--:-- --:--:-- --:--:--     3
+[]Today are the following exchange rates in BY
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4670  100  4670    0     0  17961      0 --:--:-- --:--:-- --:--:-- 17961
+[
+  {
+    "Cur_ID": 440,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "AUD",
+    "Cur_Scale": 1,
+    "Cur_Name": "Австралийский доллар",
+    "Cur_OfficialRate": 1.8146
+  },
+  {
+    "Cur_ID": 510,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "AMD",
+    "Cur_Scale": 1000,
+    "Cur_Name": "Армянских драмов",
+    "Cur_OfficialRate": 6.623
+  },
+  {
+    "Cur_ID": 441,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "BGN",
+    "Cur_Scale": 1,
+    "Cur_Name": "Болгарский лев",
+    "Cur_OfficialRate": 1.445
+  },
+  {
+    "Cur_ID": 514,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "BRL",
+    "Cur_Scale": 10,
+    "Cur_Name": "Бразильских реалов",
+    "Cur_OfficialRate": 5.0889
+  },
+  {
+    "Cur_ID": 449,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "UAH",
+    "Cur_Scale": 100,
+    "Cur_Name": "Гривен",
+    "Cur_OfficialRate": 7.1453
+  },
+  {
+    "Cur_ID": 450,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "DKK",
+    "Cur_Scale": 10,
+    "Cur_Name": "Датских крон",
+    "Cur_OfficialRate": 3.7994
+  },
+  {
+    "Cur_ID": 513,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "AED",
+    "Cur_Scale": 10,
+    "Cur_Name": "Дирхамов ОАЭ",
+    "Cur_OfficialRate": 7.1495
+  },
+  {
+    "Cur_ID": 431,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "USD",
+    "Cur_Scale": 1,
+    "Cur_Name": "Доллар США",
+    "Cur_OfficialRate": 2.626
+  },
+  {
+    "Cur_ID": 512,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "VND",
+    "Cur_Scale": 100000,
+    "Cur_Name": "Донгов",
+    "Cur_OfficialRate": 11.2016
+  },
+  {
+    "Cur_ID": 451,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "EUR",
+    "Cur_Scale": 1,
+    "Cur_Name": "Евро",
+    "Cur_OfficialRate": 2.8261
+  },
+  {
+    "Cur_ID": 452,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "PLN",
+    "Cur_Scale": 10,
+    "Cur_Name": "Злотых",
+    "Cur_OfficialRate": 6.0267
+  },
+  {
+    "Cur_ID": 508,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "JPY",
+    "Cur_Scale": 100,
+    "Cur_Name": "Иен",
+    "Cur_OfficialRate": 2.004
+  },
+  {
+    "Cur_ID": 511,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "INR",
+    "Cur_Scale": 100,
+    "Cur_Name": "Индийских рупий",
+    "Cur_OfficialRate": 3.2205
+  },
+  {
+    "Cur_ID": 461,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "IRR",
+    "Cur_Scale": 100000,
+    "Cur_Name": "Иранских риалов",
+    "Cur_OfficialRate": 6.252
+  },
+  {
+    "Cur_ID": 453,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "ISK",
+    "Cur_Scale": 100,
+    "Cur_Name": "Исландских крон",
+    "Cur_OfficialRate": 1.8316
+  },
+  {
+    "Cur_ID": 371,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "CAD",
+    "Cur_Scale": 1,
+    "Cur_Name": "Канадский доллар",
+    "Cur_OfficialRate": 1.9561
+  },
+  {
+    "Cur_ID": 462,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "CNY",
+    "Cur_Scale": 10,
+    "Cur_Name": "Китайских юаней",
+    "Cur_OfficialRate": 3.8934
+  },
+  {
+    "Cur_ID": 394,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "KWD",
+    "Cur_Scale": 1,
+    "Cur_Name": "Кувейтский динар",
+    "Cur_OfficialRate": 8.5898
+  },
+  {
+    "Cur_ID": 454,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "MDL",
+    "Cur_Scale": 10,
+    "Cur_Name": "Молдавских леев",
+    "Cur_OfficialRate": 1.3713
+  },
+  {
+    "Cur_ID": 448,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "NZD",
+    "Cur_Scale": 1,
+    "Cur_Name": "Новозеландский доллар",
+    "Cur_OfficialRate": 1.6699
+  },
+  {
+    "Cur_ID": 455,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "NOK",
+    "Cur_Scale": 10,
+    "Cur_Name": "Норвежских крон",
+    "Cur_OfficialRate": 2.625
+  },
+  {
+    "Cur_ID": 456,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "RUB",
+    "Cur_Scale": 100,
+    "Cur_Name": "Российских рублей",
+    "Cur_OfficialRate": 3.8738
+  },
+  {
+    "Cur_ID": 457,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "XDR",
+    "Cur_Scale": 1,
+    "Cur_Name": "СДР (Специальные права заимствования)",
+    "Cur_OfficialRate": 3.5227
+  },
+  {
+    "Cur_ID": 421,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "SGD",
+    "Cur_Scale": 1,
+    "Cur_Name": "Сингапурcкий доллар",
+    "Cur_OfficialRate": 1.9755
+  },
+  {
+    "Cur_ID": 458,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "KGS",
+    "Cur_Scale": 100,
+    "Cur_Name": "Сомов",
+    "Cur_OfficialRate": 3.0643
+  },
+  {
+    "Cur_ID": 459,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "KZT",
+    "Cur_Scale": 1000,
+    "Cur_Name": "Тенге",
+    "Cur_OfficialRate": 5.6783
+  },
+  {
+    "Cur_ID": 460,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "TRY",
+    "Cur_Scale": 10,
+    "Cur_Name": "Турецких лир",
+    "Cur_OfficialRate": 1.398
+  },
+  {
+    "Cur_ID": 429,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "GBP",
+    "Cur_Scale": 1,
+    "Cur_Name": "Фунт стерлингов",
+    "Cur_OfficialRate": 3.1964
+  },
+  {
+    "Cur_ID": 463,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "CZK",
+    "Cur_Scale": 100,
+    "Cur_Name": "Чешских крон",
+    "Cur_OfficialRate": 11.7579
+  },
+  {
+    "Cur_ID": 464,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "SEK",
+    "Cur_Scale": 10,
+    "Cur_Name": "Шведских крон",
+    "Cur_OfficialRate": 2.5017
+  },
+  {
+    "Cur_ID": 426,
+    "Date": "2023-01-15T00:00:00",
+    "Cur_Abbreviation": "CHF",
+    "Cur_Scale": 1,
+    "Cur_Name": "Швейцарский франк",
+    "Cur_OfficialRate": 2.8194
+  }
+]
+[Slack Notifications] found #3 as previous completed, non-aborted build
+[Slack Notifications] will send OnSuccessNotification because build matches and user preferences allow it
+Finished: SUCCESS

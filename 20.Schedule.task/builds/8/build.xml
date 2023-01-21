@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.34"/>
+  </actions>
+  <queueId>13</queueId>
+  <timestamp>1673781269596</timestamp>
+  <startTime>1673781269603</startTime>
+  <result>SUCCESS</result>
+  <duration>844</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/20.Schedule.task</workspace>
+  <hudsonVersion>2.386</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>
