@@ -3,7 +3,7 @@ pipeline {
     registry = "avrelian1995/avrelian_1995"
     registryCredential = 'dockerhub'
   }
-      agent any
+      agent { label 'slave'}
   stages {
     stage('Cloning Git') {
       steps {
@@ -16,7 +16,6 @@ pipeline {
             docker {
                 image 'hadolint/hadolint:latest-debian'
                 label 'master'
-                //image 'ghcr.io/hadolint/hadolint:latest-debian'
             }
         }
         steps {
@@ -32,21 +31,24 @@ pipeline {
     stage('Building image') {
       steps{
         script {
-          //dockerImage = docker.build("$registry:$BUILD_NUMBER")
-          dockerImage = docker.build registry + ":latest" , "--network host ."
+          dockerImage = docker.build registry + ":$BUILD_NUMBER" , "--network host ."
         }
       }
     }
     stage('Test image') {
       steps{
-        sh "docker run -i $registry:latest"
+        sh "docker run -d -p 8080:8080 $registry:$BUILD_NUMBER"
+        sh" sed -i 's/latest/$BUILD_NUMBER/' jenkins.yaml"
+        sh "sleep 5"
+        sh 'wget http://localhost:8080'
+        sh 'cat index.html'
       }
     }
 
     stage('Push Image to repo') {
       steps{
         script {
-          docker.withRegistry( '', registryCredential ) {
+            docker.withRegistry( '', registryCredential ) {
             dockerImage.push()
           }
         }
@@ -54,11 +56,12 @@ pipeline {
     }
     stage('Deploy in pre-prod') {
       steps{
-        script {
-          sh "kubectl apply -f jenk21.yaml --namespace=pre-prod"
+          withKubeConfig([credentialsId: 'mykubeconfig']) {
+          sh "kubectl get pods --namespace=pre=prod"
+          sh "kubectl apply -f jenkins.yaml --namespace=pre-prod"
           sleep 4
           sh "kubectl get pods --namespace=pre=prod"
-        }
+          }
       }
     }
     stage('Deploy in prod') {
@@ -74,10 +77,12 @@ pipeline {
             }
             try{
               if(depl){
-                sh "kubectl apply -f jenk21.yaml"
+                withKubeConfig([credentialsId: 'mykubeconfig']) {
+                sh "kubectl apply -f jenkins.yaml --namespace=prod"
                 sleep 4
                 sh "kubectl get pods --namespace=prod"
-                sh "kubectl delete -f jenk21.yaml --namespace=pre-prod"
+                sh "kubectl delete -f jenkins.yaml --namespace=pre-prod"
+                }
               }
             }
             catch(Exception err){
